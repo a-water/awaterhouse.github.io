@@ -2,7 +2,7 @@ int num =20;
 float step, sz, offSet, theta, angle;
  
 void setup() {
-  size(600, 400);
+  size(window.innerWidth, window.innerHeight);
   strokeWeight(5);
   step = 22;
 }
